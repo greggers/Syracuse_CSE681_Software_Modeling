@@ -1,0 +1,22 @@
+[package]
+name = "type_safety_demo"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "buffer_safe"
+path = "buffer_safe.rs"
+
+[[bin]]
+name = "memory_safe"
+path = "memory_safe.rs"
+
+[[bin]]
+name = "option_safe"
+path = "option_safe.rs"
+
+[[bin]]
+name = "thread_safe"
+path = "thread_safe.rs"
+
+[dependencies]
