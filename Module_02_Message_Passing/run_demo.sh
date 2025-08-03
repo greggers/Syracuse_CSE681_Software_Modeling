@@ -12,7 +12,7 @@ echo "📤 Messages are being published to the queue..."
 echo "🛑 Simulating consumer failure in 5 seconds..."
 sleep 5
 
-docker compose stop consumer
+dockaer compose stop consumer
 echo "💥 Consumer stopped. Publisher continues to publish messages."
 
 sleep 10
